@@ -28,45 +28,102 @@
     <main>
         <div id="location">
             <div class="google-maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.766922466968!2d36.7691786!3d46.769490499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e7ca593116f403%3A0xadce2a5ccd91ef10!2z0KfQnyDQodGC0L7QtdCy0LAg0JXQu9C10L3QsCDQkNGA0YLRkdC80L7QstC90LAg0LDRgtC10LvRjNC1ICLQnNCQ0KHQoiI!5e0!3m2!1sbg!2sbg!4v1667378305783!5m2!1sbg!2sbg"
-                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.766922466968!2d36.7691786!3d46.769490499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e7ca593116f403%3A0xadce2a5ccd91ef10!2z0KfQnyDQodGC0L7QtdCy0LAg0JXQu9C10L3QsCDQkNGA0YLRkdC80L7QstC90LAg0LDRgtC10LvRjNC1ICLQnNCQ0KHQoiI!5e0!3m2!1sbg!2sbg!4v1667378305783!5m2!1sbg!2sbg"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                 <iframe width="425" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=36.76643908023835%2C46.76816874658867%2C36.77146017551423%2C46.77073706913554&amp;layer=mapnik&amp;marker=46.76945292317046%2C36.76894962787628"></iframe>
             </div>
 
-            <div id="address"></div>
-        </div>
-        <div id="contact-main">
-            <div id="contact">
-                <p>Свържете се с нас!</p>
-                <form>
-                    <label>Заглавие</label>
-                    <input type="text">
-                    <br>
-                    <label>Имейл</label>
-                    <input type="email">
-                    <br>
-                    <label>Съдържание</label>
-                    <input type="textarea">
-                </form>
+            <div id="address">
+                <div id="address-first-line">
+                    <div class="addres-contact-info">
+                        <h2>Работно време:</h2>
+                        <ul>
+                            <li><b>понеделник - петък:</b> <br> 9:00 - 18:00</li>
+                            <li><b>събота:</b> 9:00 - 15:00</li>
+                            <li><b>неделя:</b> почивен ден</li>
+                        </ul>
+                    </div>
+
+                    <div class="address-contact-info">
+                        <h2>Адрес:</h2>
+                        <p>ул. "Ярослава Мудрово" №22<br>
+                            Бердянск, Украйна<br>
+                            ПК 71100
+                        </p>
+                    </div>
+                </div>
+                <div id="address-second-line">
+                    <h2>Телефон за връзка:</h2>
+                    <span>066 629 7517<br>
+                        068 180 3632</span>
+                </div>
+                <div id="contact-button-div">
+                    <a href="https://goo.gl/maps/Vf5SDswwBM15bG61A"><button id="contact-button">
+                        <span id="find-us">НАМЕРЕТЕ НИ НА КАРТАТА</span></button></a>
+                </div>
             </div>
+
+            <div id="contact-main">
+                <div id="contact">
+                    <p id="contact-us-text">Свържете се с нас!</p>
+                    <form>
+                        <div id="contact-form-first-line">
+                            <div id="form-contact-field">
+                                <label class="labels">Заглавие</label>
+                                <input type="text" placeholder="Заглавие" class="input-field">
+                            </div>
+                            
+                            <div id="form-contact-field">
+                                <label class="labels">Имейл</label>
+                                <input type="email" placeholder="Вашият имейл" class="input-field">
+                            </div>
+                        </div>
+                        
+                        <div id="form-content-field">
+                            <label class="labels">Съдържание</label>
+                            <input type="textarea" placeholder="Съобщение">
+                        </div>
+                    </form>
+                </div>
+        </div>
         </div>
     </main>
     <footer>
-            <ul id="footer-nav">
-                <li><a href="./home.html">Начало</a></li>
-                <li><a href="./catalogue.html">Kаталог</a></li>
-                <li><a href="./services.html">Услуги</a></li>
-                <li><a href="./news.html">Новини</a></li>
-                <li><a href="./aboutus.html">За нас</a></li>
-                <li><a href="./contacts.html">Контакти</a></li>
-            </ul>
+        <div class="top-footer-div">
+            <div class="footer-div">
+                <ul id="footer-nav">
+                    <li><a href="./home.html">Начало</a></li>
+                    <li><a href="./catalogue.html">Kаталог</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                    <li><a href="./news.html">Новини</a></li>
+                    <li><a href="./aboutus.html">За нас</a></li>
+                    <li><a href="./contacts.html">Контакти</a></li>
+                </ul>
+            </div>
 
-        <ul id="working-hours">
-            <li><b>Работно време</b></li>
-            <br>
-            <li><b>понеделник - петък:</b> <br> 9:00 - 18:00</li>
-            <li><b>събота:</b> 9:00 - 15:00</li>
-            <li><b>неделя:</b> почивен ден</li>
-        </ul>
+            <div></div>
+            <div class="footer-div">
+                <ul id="working-hours">
+                    <li><span><b>Работно време</b></span></li>
+                    <br>
+                    <li><b>понеделник - петък:</b> <br> 9:00 - 18:00</li>
+                    <li><b>събота:</b> 9:00 - 15:00</li>
+                    <li><b>неделя:</b> почивен ден</li>
+                </ul>    
+            </div>
+        </div>
+
+    
+        <div class="footer-div">
+            <div id="social-media">
+                <ul id="social-icons">
+                    <li><a href=""><img class="icon" src="../images/icons8-facebook-48.png" alt=""></a></li>
+                    <li><a href=""><img class="icon" src="../images/icons8-instagram-48.png" alt=""></a></li>
+                    <li><a href=""><img class="icon" src="../images/icons8-linkedin-48.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
     </footer>
 </body>
 </html>
