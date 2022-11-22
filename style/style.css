@@ -1,5 +1,6 @@
 @import './abs.css';
 @import './contacts.css';
+@import './footer.css';
 
 *{
     margin: 0;
@@ -27,15 +28,6 @@ header {
     right: 0;
 }
 
-footer{
-    background-color: #e5deca;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    bottom: 0;
-    padding: 30px 60px;
-}
-
 ul{
     list-style-type: none;
 }
@@ -57,51 +49,6 @@ nav li a {
 a:hover{
     color: #000;
     text-decoration: underline;
-}
-
-#footer-nav{
-    list-style-type: none;
-    padding: 40px 60px;
-}
-
-#footer-nav li{
-    display: block;
-    padding: 10px;
-}
-
-#footer-nav li a{
-    text-decoration: none;
-    color: black;
-}
-
-#firm-name{
-    padding: 30px;
-    text-decoration: none;
-    color: beige;
-}
-
-#working-hours{
-    padding: 7% 5%;
-}
-#working-hours li{
-    padding: 5px 20px;
-}
-
-#social-icons{
-    display: flex;
-    padding: 0 2px;
-    justify-content: center;
-}
-
-.icon{
-    padding: 5px;
-    width: 44px;
-    height: 44px;
-    margin-top: 15px;
-}
-
-#social-media{
-    padding: 0 40px;
 }
 
 .top-footer-div{
