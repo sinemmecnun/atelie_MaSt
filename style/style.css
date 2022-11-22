@@ -28,7 +28,7 @@ header {
 footer{
     background-color: #e5deca;
     display: flex;
-    position: re;
+    position:relative;
     bottom: 10px;
     justify-content: space-between;
     align-items: center;
