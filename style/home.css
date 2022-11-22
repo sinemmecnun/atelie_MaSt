@@ -1,12 +1,42 @@
-body{
-    background-color: #e5deca;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3eee5;
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
+main{
+    padding-bottom: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #bfaa8c;
+    position: inherit;
+    left: 0;
+    right: 0;
+}
+
+footer{
+    background-color: #e5deca;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
     margin: 0;
     padding: 15px;
 }
@@ -22,13 +52,28 @@ nav li a {
 }
 a:hover{
     color: #000;
+    text-decoration: underline;
+}
+
+#footer-nav{
+    list-style-type: none;
+    padding: 40px 60px;
+}
+
+#footer-nav li{
+    display: block;
+    padding: 10px;
+}
+
+#footer-nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 .google-maps {
     position: relative;
     padding-bottom: 500px; 
     overflow: hidden;
-    background-color: red;
   }
 .google-maps iframe {
     position: absolute;
@@ -39,10 +84,44 @@ a:hover{
 }
 
 #firm-name{
-    text-align: left;
+    padding: 30px;
+    text-decoration: none;
+    color: beige;
 }
 
-.nav-right{
-    text-align: right;
+#working-hours{
+    padding: 7% 5%;
+}
+#working-hours li{
+    padding: 5px 20px;
+}
 
+#contact{
+    width: 70%;
+    height: 20rem;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 45px;
+}
+#contact p, form{
+    padding: 10px;
+}
+
+#contact-main{
+    padding: 20px;
+}
+
+#social-icons{
+    display: flex;
+    padding: 0 2px;
+}
+
+.icon{
+    padding: 5px;
+    width: 44px;
+    height: 44px;
+    margin-top: 15px;
 }

@@ -8,38 +8,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Начало</title>
+    <link rel="icon" href="../images/icon.png">
+    <title>Контакти</title>
 </head>
 <body>
-    <nav>
-        <ul class="nav-right">
-            <li id="firm-name"><a href="./home.html">МАСТ</a></li>
-            <li><a href="./home.html">Начало</a></li>
-            <li><a href="./catalogue.html">Kаталог</a></li>
-            <li><a href="./services.html">Услуги</a></li>
-            <li><a href="./news.html">Новини</a></li>
-            <li><a href="./aboutus.html">За нас</a></li>
-            <li><a href="./contacts.html">Контакти</a></li>
-        </ul>
-    </nav>
+    <header>
+        <a id="firm-name" href="./home.html">ЧП Стоева Елена Артёмовна ателье "МАСТ"</a>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Начало</a></li>
+                <li><a href="./catalogue.html">Kаталог</a></li>
+                <li><a href="./services.html">Услуги</a></li>
+                <li><a href="./news.html">Новини</a></li>
+                <li><a href="./aboutus.html">За нас</a></li>
+                <li><a href="./contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="location">
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.766922466968!2d36.7691786!3d46.769490499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e7ca593116f403%3A0xadce2a5ccd91ef10!2z0KfQnyDQodGC0L7QtdCy0LAg0JXQu9C10L3QsCDQkNGA0YLRkdC80L7QstC90LAg0LDRgtC10LvRjNC1ICLQnNCQ0KHQoiI!5e0!3m2!1sbg!2sbg!4v1667378305783!5m2!1sbg!2sbg"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
-    <div class="google-maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.766922466968!2d36.7691786!3d46.769490499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e7ca593116f403%3A0xadce2a5ccd91ef10!2z0KfQnyDQodGC0L7QtdCy0LAg0JXQu9C10L3QsCDQkNGA0YLRkdC80L7QstC90LAg0LDRgtC10LvRjNC1ICLQnNCQ0KHQoiI!5e0!3m2!1sbg!2sbg!4v1667378305783!5m2!1sbg!2sbg"
-         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+            <div id="address"></div>
+        </div>
+        <div id="contact-main">
+            <div id="contact">
+                <p>Свържете се с нас!</p>
+                <form>
+                    <label>Заглавие</label>
+                    <input type="text">
+                    <br>
+                    <label>Имейл</label>
+                    <input type="email">
+                    <br>
+                    <label>Съдържание</label>
+                    <input type="textarea">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <ul id="footer-nav">
+                <li><a href="./home.html">Начало</a></li>
+                <li><a href="./catalogue.html">Kаталог</a></li>
+                <li><a href="./services.html">Услуги</a></li>
+                <li><a href="./news.html">Новини</a></li>
+                <li><a href="./aboutus.html">За нас</a></li>
+                <li><a href="./contacts.html">Контакти</a></li>
+            </ul>
 
-    <div>
-        <p>Свържете се с нас!</p>
-        <form>
-            <label>Заглавие</label>
-            <input type="text">
-
-            <label>Имейл</label>
-            <input type="email">
+        <ul id="working-hours">
+            <li><b>Работно време</b></li>
             <br>
-            <label>Съдържание</label>
-            <input type="text">
-        </form>
-    </div>
+            <li><b>понеделник - петък:</b> <br> 9:00 - 18:00</li>
+            <li><b>събота:</b> 9:00 - 15:00</li>
+            <li><b>неделя:</b> почивен ден</li>
+        </ul>
+    </footer>
 </body>
 </html>
