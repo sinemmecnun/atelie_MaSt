@@ -1,5 +1,5 @@
 footer{
-    background-color: #c0a293;
+    background-color: #ccb2a4;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -25,7 +25,9 @@ footer{
 #firm-name{
     padding: 30px;
     text-decoration: none;
-    color: beige;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: #3a2c2b;
 }
 
 #working-hours{

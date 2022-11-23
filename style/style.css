@@ -5,20 +5,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'IBM Plex Serif', serif;
     background-color: #fafafa;
     font-size: 18px;
 }
-
 main{
     padding-bottom: 40px;
     display: block;
 }
 
 header {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,10 +46,16 @@ nav li a {
 
 }
 a:hover{
-    color: rgb(42, 25, 25);
+    color: #3a2c2b;
     text-decoration: underline;
 }
 
 .top-footer-div{
     display: flex;
+}
+@media screen and (max-width: 900px) 
+{
+    #firm-name{
+        font-size: 15px;
+    }
 }
