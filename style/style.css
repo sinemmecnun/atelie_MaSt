@@ -7,10 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-    background-color: #f3eee5;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background-color: #fafafa;
+    font-size: 18px;
 }
 
 main{
@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #bfaa8c;
+    background-color: #AB8F80;
     position: inherit;
     left: 0;
     right: 0;
@@ -47,7 +47,7 @@ nav li a {
 
 }
 a:hover{
-    color: #000;
+    color: rgb(42, 25, 25);
     text-decoration: underline;
 }
 
