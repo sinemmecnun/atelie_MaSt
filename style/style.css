@@ -8,7 +8,7 @@
 }
 body{
     font-family: 'IBM Plex Serif', serif;
-    background-color: #fafafa;
+    background-color: #e3ddd4;
     font-size: 18px;
 }
 main{
@@ -21,10 +21,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #AB8F80;
+    background-color: #ae977d;
     position: inherit;
     left: 0;
     right: 0;
+}
+header>a{
+    opacity: 0.5;
 }
 
 ul{
@@ -46,8 +49,8 @@ nav li a {
 
 }
 a:hover{
-    color: #3a2c2b;
-    text-decoration: underline;
+    color: #3a2827;
+    opacity: 1;
 }
 
 .top-footer-div{
