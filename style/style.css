@@ -8,7 +8,7 @@
 }
 body{
     font-family: 'IBM Plex Serif', serif;
-    background-color: #e3ddd4;
+    background-color: #ede5e5;
     font-size: 18px;
 }
 main{
@@ -21,13 +21,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ae977d;
+    background-color: #9b8d8d; 
     position: inherit;
     left: 0;
     right: 0;
 }
 header>a{
-    opacity: 0.5;
+    opacity: 0.55;
 }
 
 ul{
