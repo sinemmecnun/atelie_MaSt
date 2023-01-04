@@ -2,6 +2,7 @@
 @import './contacts.css';
 @import './footer.css';
 @import './catalogue_divs.css';
+@import './services-page.css';
 
 *{
     margin: 0;
@@ -13,7 +14,6 @@ body{
     font-size: 18px;
 }
 main{
-    padding-bottom: 40px;
     display: block;
 }
 

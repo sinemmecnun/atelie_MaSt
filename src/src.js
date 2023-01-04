@@ -22,6 +22,8 @@ document.getElementById('ex-costume').addEventListener('click', () => {
     expandCatalogue(div);
 })
 
+
+
 function expandCatalogue(div){
     if(div.style.display === 'none'){
         div.style.display = 'grid';

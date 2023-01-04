@@ -1,0 +1,45 @@
+table, tr, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    width: 70%;
+}
+
+td{
+    padding: 10px;
+}
+
+.service-div{
+    height: 600px;
+    width: 100%;
+    display: flexbox;
+    vertical-align: bottom;
+}
+
+#order-div{
+    background-color: pink;
+}
+
+#rent-div{
+    background-color: blanchedalmond;
+}
+
+#womens-sizes-div{
+    padding: 40px 50px;
+    background-color: azure;
+}
+
+.service-btn{
+    padding: 20px;
+    width: 350px;
+    font-size: 23px;
+    border-radius: 20px;
+    border: none;
+    margin: 12px;
+}
+
+.service-btn:hover{
+    cursor: pointer;
+}
