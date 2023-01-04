@@ -113,3 +113,8 @@
 #form-content-field{
     text-align: left;
 }
+
+#messagebox{
+    width: 100%;
+    height: 140px;
+}
