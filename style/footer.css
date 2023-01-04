@@ -1,10 +1,13 @@
 footer{
-    background-color: #988888;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #3a3a3a;
+    color: rgb(255, 255, 255);
     width: 100%;
-    bottom: 0;
     padding: 30px 60px;
+}
+
+footer #footer-nav #working-hours{
+    display: flex;
+    flex-direction: column;
 }
 
 #footer-nav{
@@ -19,15 +22,15 @@ footer{
 
 #footer-nav li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #firm-name{
-    padding: 30px;
+    padding: 5px 0px 0px;
     text-decoration: none;
     font-family: 'Lobster', cursive;
-    font-size: 25px;
-    color: #3a2c2b;
+    font-size: 30px;
+    color: #b7b0b0;
 }
 
 #working-hours{
@@ -41,6 +44,7 @@ footer{
     display: flex;
     padding: 0 2px;
     justify-content: center;
+    color: rgb(255, 255, 255);
 }
 
 .icon{

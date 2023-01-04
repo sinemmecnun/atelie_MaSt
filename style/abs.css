@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     justify-content: space-around ;
-    color: #3a2c2b;
+    color: #181818;
 }
 .abs_pics{
     font-size:larger;
@@ -15,7 +15,7 @@
     padding-bottom: 20px;
     text-align: center;
     align-items: center;
-    background-color: rgb(251, 250, 250);
+    background-color: rgb(227, 217, 217);
 }
 img{
     width: 500px;
@@ -25,7 +25,6 @@ img{
 }
 .employees{
     height: auto;
-    background-color: rgb(251, 245, 249);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,11 +53,11 @@ padding-right: 30px;
     width: 350px;
 }
 hr{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 10px ;
     display: block;
-    height: 2px;
-    background-color: #957c6f;
+    height: 1.5px;
+    background-color: #4b4343;
+    border: 0;
     width: 1000px;
     justify-content: center;
 }
