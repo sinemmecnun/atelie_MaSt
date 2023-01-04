@@ -33,10 +33,20 @@
     </header>
     
     <main>
-        <div class="catalogue-item">
-            <img src="../images/gallery/бельо/1.jpg" class="catalogue-pic" alt="">
-            <button class="details-button">Детайли</button>
+        <div id="item-details">
+            <button id="close-button">X</button>
         </div>
+        <p class="item-heading">&#10084; <a class="expand-button" id="ex-pjs" href="javascript:void(0)">Пижами</a></p>
+        <div class="catalogue-div" id="pajamas-div"></div>
+
+        <p class="item-heading">&#10084; <a class="expand-button" id="ex-undwear" href="javascript:void(0)">Бельо</a></p>
+        <div class="catalogue-div" id="underwear-div"></div>
+
+        <p class="item-heading">&#10084; <a class="expand-button" id="ex-dress" href="javascript:void(0)">Рокли</a></p>
+        <div class="catalogue-div" id="dress-div"></div>
+
+        <p class="item-heading">&#10084; <a class="expand-button" id="ex-costume" href="javascript:void(0)">Костюми</a></p>
+        <div class="catalogue-div" id="costumes-div"></div>
     </main>
 
     <footer>
@@ -64,6 +74,6 @@
             <p>&copy;2023 - МАСТ Ателье</p>
         </div>
     </footer>
-    <script src="../src/catalogueItems.js" type="module"></script>
+    <script src="../src/src.js" type="module"></script>
 </body>
 </html>

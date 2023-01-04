@@ -4,7 +4,7 @@
     background-color: #4b4343;
     text-align: center;
     flex-direction: column;
-    margin: 30px 80px;
+    margin: 30px 70px;
     padding: 20px;
     border-radius: 20px;
 }
@@ -26,3 +26,30 @@
 .details-button:hover{
     cursor: pointer;
 }
+
+.catalogue-div{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+.item-heading{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.expand-button{
+    text-decoration: none;
+    color:  #3a3a3a;
+}
+
+#item-details{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    left: 400px;
+    top: 200px;
+    background-color: #4b4343;
+    display: none;
+}
+
