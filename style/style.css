@@ -1,6 +1,7 @@
 @import './abs.css';
 @import './contacts.css';
 @import './footer.css';
+@import './catalogue_divs.css';
 
 *{
     margin: 0;
@@ -42,8 +43,8 @@ nav li{
 nav li a {
     color: white;
     text-decoration: none;
-
 }
+
 a:hover{
     color: #b8b8b8;
     opacity: 1;

@@ -5,19 +5,16 @@ footer{
     padding: 30px 60px;
 }
 
-footer #footer-nav #working-hours{
-    display: flex;
-    flex-direction: column;
-}
-
 #footer-nav{
     list-style-type: none;
-    padding: 40px 60px;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
 }
 
 #footer-nav li{
-    display: block;
-    padding: 10px;
+    display: flex;
+    padding: 20px;
 }
 
 #footer-nav li a{
@@ -48,9 +45,8 @@ footer #footer-nav #working-hours{
 }
 
 .icon{
-    padding: 5px;
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     margin-top: 15px;
 }
 
@@ -58,6 +54,21 @@ footer #footer-nav #working-hours{
     padding: 0 40px;
 }
 
-.top-footer-div{
-    display: flex;
+.footer-div{
+    justify-content: center;
+}
+
+#copyright{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#copyright hr{
+    margin: 10px ;
+    display: block;
+    height: 1.5px;
+    background-color: #4b4343;
+    border: 0;
+    width: 1000px;
+    justify-content: center;
 }

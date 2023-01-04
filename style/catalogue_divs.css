@@ -1,0 +1,28 @@
+.catalogue-item{
+    display: block;
+    width: 370px;
+    background-color: #4b4343;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px 80px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.catalogue-pic{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.details-button{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.details-button:hover{
+    cursor: pointer;
+}
