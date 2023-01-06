@@ -28,11 +28,14 @@ header {
     height: fit-content;
     display: flex;
     align-items: center;
-    background-color: #1b1b1b; 
+    background: #1b1b1b; 
     flex-direction: column;
     position: fixed;
     opacity: 0.75;
     width: 100%;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    filter: url(blur.svg#blur);
 }
 
 ul{
