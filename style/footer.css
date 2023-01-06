@@ -2,19 +2,21 @@ footer{
     background-color: #3a3a3a;
     color: rgb(255, 255, 255);
     width: 100%;
-    padding: 30px 60px;
+    padding-bottom: 30px ;
+    margin-top: auto;
+    font-size: 10px;
+    opacity: 0.85;
 }
 
 #footer-nav{
     list-style-type: none;
     display: flex;
-    padding-bottom: 20px;
     justify-content: center;
 }
 
 #footer-nav li{
     display: flex;
-    padding: 20px;
+    padding: 20px 20px 0px;
 }
 
 #footer-nav li a{
@@ -30,13 +32,6 @@ footer{
     color: #b7b0b0;
 }
 
-#working-hours{
-    padding: 7% 5%;
-}
-#working-hours li{
-    padding: 5px 20px;
-}
-
 #social-icons{
     display: flex;
     padding: 0 2px;
@@ -45,30 +40,20 @@ footer{
 }
 
 .icon{
-    width: 40px;
-    height: 40px;
-    margin-top: 15px;
+    width: 20px;
+    height: 20px;
 }
 
 #social-media{
-    padding: 0 40px;
+    padding: 10px 0px 20px;
 }
 
 .footer-div{
-    justify-content: center;
-}
-
-#copyright{
-    margin-top: 20px;
     text-align: center;
 }
 
-#copyright hr{
-    margin: 10px ;
-    display: block;
-    height: 1.5px;
-    background-color: #4b4343;
-    border: 0;
-    width: 1000px;
-    justify-content: center;
+#copyright{
+    margin-bottom: -20px;
+    text-align: center;
+    font-size: 6px;
 }

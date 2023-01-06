@@ -11,10 +11,17 @@
 body{
     font-family: 'IBM Plex Serif', serif;
     background-color: rgb(234, 224, 224);
-    font-size: 18px;
+    font-size: 15px;
 }
+.page{
+    overflow: hidden;
+    display: grid;
+    min-height: 100vh;
+}
+
 main{
     display: block;
+    margin-top: 80px;
 }
 
 header {
@@ -23,8 +30,9 @@ header {
     align-items: center;
     background-color: #1b1b1b; 
     flex-direction: column;
-    position: inherit;
+    position: fixed;
     opacity: 0.75;
+    width: 100%;
 }
 
 ul{
@@ -33,7 +41,7 @@ ul{
 
 nav{
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 nav li{
