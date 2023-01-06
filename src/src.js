@@ -22,7 +22,17 @@ document.getElementById('ex-costume').addEventListener('click', () => {
     expandCatalogue(div);
 })
 
+const detailsButtons = document.querySelectorAll('.details-button');
+detailsButtons.forEach((button) => {
+    const detailsDiv = document.getElementById('item-details');
+    button.addEventListener('click', () => {
+        detailsDiv.style.display = 'block';})
+})
 
+document.getElementById('close-button').addEventListener('click', () => {
+    const detailsDiv = document.getElementById('item-details');
+    detailsDiv.style.display = 'none';
+})
 
 function expandCatalogue(div){
     if(div.style.display === 'none'){
