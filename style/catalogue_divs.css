@@ -1,10 +1,8 @@
 .catalogue-item{
     display: block;
-    width: 370px;
     background-color: #4b4343;
     text-align: center;
-    flex-direction: column;
-    margin: 30px 5px;
+    margin: 0px 30px 30px;
     padding: 20px;
     border-radius: 20px;
 }
@@ -18,9 +16,16 @@
 
 .details-button{
     padding: 10px;
+    color: rgb(208, 208, 208);
+    background-color: #a49292;
+    opacity: 0.68;
     margin: 10px;
     width: 150px;
     border-radius: 10px;
+    border: 0;
+}
+.details-button:hover{
+    opacity: 1;
 }
 
 .details-button:hover{
@@ -30,12 +35,14 @@
 .catalogue-div{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .item-heading{
     font-size: 35px;
-    margin-left: 100px;
-    margin-top: 30px;
+    margin: 20px 0px 20px 100px;
 }
 
 .expand-button{
