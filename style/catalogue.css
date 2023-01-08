@@ -1,0 +1,114 @@
+/* product containers general styling */
+.catalogue-div{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+@media screen and (max-width: 950px){
+    .catalogue-div{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
+}
+
+/* individual containers */
+.catalogue-item{
+    display: block;
+    background-color: #bd9f9fb0;
+    text-align: center;
+    margin: 0px 30px 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.catalogue-pic{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+/* details buttons */
+.details-button{
+    padding: 10px;
+    color: rgb(208, 208, 208);
+    background-color: #6c6464c0;
+    opacity: 0.90;
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.details-button:hover{
+    cursor: pointer;
+    color: beige;
+    opacity: 1;
+}
+
+/* category headings */
+
+.item-heading{
+    font-size: 35px;
+    margin: 20px 0px 20px 100px;
+}
+
+/* category names/ expand button */
+.expand-button{
+    text-decoration: none;
+    color:  #3a3a3a;
+}
+
+.expand-button:hover{
+    color: rgb(141, 122, 122);
+}
+
+/* prevents the page from scrolling when details window is active */
+
+.stop-scrolling{
+    height: 100%;
+    overflow: hidden;
+}
+
+/* item details window, specific for every category*/
+
+#item-details{
+    z-index: 100;
+    width: 60%;
+    height: 60%;
+    background-color: #4b4343;
+    overflow: auto;
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: table-cell;
+    display: none;
+}
+
+#details-container{
+    display: flex;
+}
+
+#details-pic{
+    width: 300px;
+    height: 350px;
+}
+
+#details-text{
+    width: fit-content;
+}
+
+/* close button on the details window */
+
+#close-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#close-button:hover{
+    cursor: pointer;
+}

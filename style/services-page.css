@@ -1,3 +1,4 @@
+/* table styling */
 table, tr, td{
     border: 1px solid;
     border-collapse: collapse;
@@ -18,19 +19,7 @@ td{
     vertical-align: bottom;
 }
 
-#order-div{
-    background-color: pink;
-}
-
-#rent-div{
-    background-color: blanchedalmond;
-}
-
-#womens-sizes-div{
-    padding: 40px 50px;
-    background-color: azure;
-}
-
+/* general buttons style */
 .service-btn{
     padding: 20px;
     width: 350px;
@@ -42,4 +31,22 @@ td{
 
 .service-btn:hover{
     cursor: pointer;
+}
+
+.ask-div{
+    background-color: aliceblue;
+}
+
+#order-div{
+    background-color: #faf0e6;
+    border-bottom: 1pt solid black;
+}
+
+#rent-div{
+    background-color: rgb(253, 236, 236);
+}
+
+#womens-sizes-div{
+    padding: 40px 50px;
+    background-color: azure;
 }

@@ -1,0 +1,64 @@
+header {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background: #1b1b1b; 
+    /* background: #887c7c; */
+    flex-direction: column;
+    position: fixed;
+    opacity: 0.55;
+    /* opacity: 0.75; */
+    width: 100%;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    filter: url(blur.svg#blur);
+    z-index: 100;
+}
+
+/* firm name styling */
+
+#firm-name{
+    padding: 5px 0px 0px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #b7b0b0;
+}
+
+#firm-name:hover{
+    color: #cdc2c2;
+}
+
+@media screen and (max-width: 900px) 
+{
+    nav li{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav li{
+        font-size: 13px;
+    }
+}
+
+/* site navigation */
+nav{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+nav li{
+    padding: 0 20px;
+    display:inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #a08b8b;
+    opacity: 1.5;
+}
