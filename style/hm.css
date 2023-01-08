@@ -1,10 +1,10 @@
 .main_img{
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/00.jpg);
     height: 100vh;
     z-index: 1;
     background-repeat: no-repeat;
     -webkit-background-size: 100%;
-    height: 650px;
+    height: 450px;
     background-attachment:fixed;
     margin-top: -80px ;
 }
@@ -22,14 +22,74 @@
     left: 0;
 }
 .abs{
+    opacity: 0.55px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
+    padding: 4px 0px 20px;
+    border-top: 2px  solid rgb(102, 83, 83);
+    border-bottom: 2px  solid rgb(102, 83, 83);
 }
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0;
 }
+.work-img{
+    background-image: url(../images/plat.jpg);
+    height: 100vh;
+    background: b;
+    z-index: 1;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    height: 450px;
+    background-attachment:fixed;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 25%;
+}
+.order , .rent{
+    display:grid;
+}
+.services>div{
+    height: 200px;
+    width: 350px;
+    background-color: rgba(221, 201, 201, 0.292);
+    color: azure;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 35px;
+}
+.order:hover , .rent:hover{
+    background-color: rgba(253, 236, 236, 0.652);
+}
+.srv>a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+/*
+.fix{
+    margin-top: 50px;
+} */
+#ctl{
+    color: rgb(33, 25, 25);
+    font-size: 30px;
+    margin: 20px;
+}
+.catalog{
+    height: 450px;
+    text-align: center;
+}
+.catalog-items{
+    height: 350px;
+    background-color: rgba(111, 99, 99, 0.4);
+}
+
+

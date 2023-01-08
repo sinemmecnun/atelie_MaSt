@@ -1,6 +1,6 @@
 .catalogue-item{
     display: block;
-    background-color: #4b4343;
+    background-color: #bd9f9fb0;
     text-align: center;
     margin: 0px 30px 30px;
     padding: 20px;
@@ -17,8 +17,8 @@
 .details-button{
     padding: 10px;
     color: rgb(208, 208, 208);
-    background-color: #a49292;
-    opacity: 0.68;
+    background-color: #6c6464c0;
+    opacity: 0.90;
     margin: 10px;
     width: 150px;
     border-radius: 10px;
@@ -30,6 +30,7 @@
 
 .details-button:hover{
     cursor: pointer;
+    color: beige;
 }
 
 .catalogue-div{
@@ -59,5 +60,7 @@
     background-color: #4b4343;
     display: none;
 }
-
+.expand-button:hover{
+    color: rgb(141, 122, 122);
+}
 
