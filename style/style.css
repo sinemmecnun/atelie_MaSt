@@ -52,11 +52,14 @@ nav li{
     padding: 0 20px;
     display:inline-block;
 }
-a{
+li>a{
     color: white;
     text-decoration: none;
 }
-
+a{
+    color: rgb(26, 2, 2);
+    text-decoration: none;
+}
 a:hover{
     color: #a08b8b;
     opacity: 1.5;
