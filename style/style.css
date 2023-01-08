@@ -1,23 +1,23 @@
-@import './abs.css';
-@import './contacts.css';
+@import './header.css';
 @import './footer.css';
-@import './catalogue_divs.css';
+@import './home-page.css';
+@import './catalogue.css';
 @import './services-page.css';
-@import './hm.css';
+@import './about-us.css';
+@import './contacts.css';
+
+
+/* general page settings */
 
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'IBM Plex Serif', serif;
     background-color: rgb(253, 236, 236);
     font-size: 18px;
-}
-.page{
-    overflow: hidden;
-    display: grid;
-    min-height: 100vh;
 }
 
 main{
@@ -25,51 +25,12 @@ main{
     margin-top: 80px;
 }
 
-header {
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    background: #1b1b1b; 
-    flex-direction: column;
-    position: fixed;
-    opacity: 0.55;
-    width: 100%;
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
-    filter: url(blur.svg#blur);
-}
-
 ul{
     list-style-type: none;
 }
 
-nav{
-    margin: 0;
-    padding-bottom: 10px;
-}
-
-nav li{
-    padding: 0 20px;
-    display:inline-block;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #a08b8b;
-    opacity: 1.5;
-}
-#firm-name:hover{
-    color: #cdc2c2;
-}
-.top-footer-div{
-    display: flex;
-}
-@media screen and (max-width: 900px) 
-{
-    #firm-name{
-        font-size: 30px;
-    }
+.page{
+    overflow: hidden;
+    display: grid;
+    min-height: 100vh;
 }

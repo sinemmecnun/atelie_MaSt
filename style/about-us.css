@@ -1,3 +1,24 @@
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+hr{
+    margin: 10px 20px 0px;
+    display: block;
+    height: 1.5px;
+    background-color: #4b4343;
+    border: 0;
+    width: 1000px;
+    justify-content: center;
+}
+
 .main_abs{
     height: auto;
     display: flex;
@@ -6,6 +27,7 @@
     justify-content: space-around ;
     color: #181818;
 }
+
 .abs_pics{
     font-size:larger;
     display: flex;
@@ -17,12 +39,7 @@
     align-items: center;
     
 }
-img{
-    width: 500px;
-    height: 500px;
-    margin-left: 20px;
-    margin-right: 50px;
-}
+
 .employees{
     height: auto;
     display: flex;
@@ -32,35 +49,28 @@ img{
     text-align: center;
     align-items: center;
 }
-h1{
-    margin-bottom: 25px;
-}
+
 .chief{
     padding-bottom: 20px;
 }
+
 .seamstresses , .it{
     height: auto;
     display: flex;
     flex-direction: row;
     padding-bottom: 20px;
 }
+
 .first , .second{
 padding-left: 30px;
 padding-right: 30px;
 }
+
 .pics{
     height: 350px;
     width: 350px;
 }
-hr{
-    margin: 10px 20px 0px;
-    display: block;
-    height: 1.5px;
-    background-color: #4b4343;
-    border: 0;
-    width: 1000px;
-    justify-content: center;
-}
+
 @media screen and (max-width: 1000px) 
 {
     .abs_pics{

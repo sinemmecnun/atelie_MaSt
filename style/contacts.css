@@ -1,14 +1,25 @@
 .google-maps {
     position: relative;
-    padding-bottom: 500px; 
+    padding-bottom: 490px; 
     overflow: hidden;
-  }
+}
+
 .google-maps iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+.labels{
+    font-size: 20px;
+}
+
+.input-field{
+    margin-left: 10px;
+    padding: 10px;
+    padding-right: 100px;
 }
 
 #contact{
@@ -23,6 +34,7 @@
     margin-top: 60px;
     
 }
+
 #contact p, form{
     padding: 10px;
 }
@@ -37,14 +49,14 @@
 
 #address{
     background-color: white;
-    width: 650px;
-    height: 400px;
+    width: 600px;
+    height: 370px;
     position: absolute;
     top: 150px;
     left: 20px;
     bottom: 0px;
     border-radius: 10px;
-    padding: 20px 20px;
+    padding: 15px 20px;
     text-align: center;
     box-shadow: 1px 1px 1px 0px gray;
 }
@@ -52,7 +64,7 @@
 #address-first-line{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -88,16 +100,6 @@
 
 #contact-us-text{
     font-size: 35px;
-}
-
-.labels{
-    font-size: 20px;
-}
-
-.input-field{
-    margin-left: 10px;
-    padding: 10px;
-    padding-right: 100px;
 }
 
 #contact-form-first-line{

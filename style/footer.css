@@ -8,6 +8,16 @@ footer{
     opacity: 0.85;
 }
 
+.footer-div{
+    text-align: center;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+/* site map */
 #footer-nav{
     list-style-type: none;
     display: flex;
@@ -24,12 +34,15 @@ footer{
     color: rgb(255, 255, 255);
 }
 
-#firm-name{
-    padding: 5px 0px 0px;
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
-    color: #b7b0b0;
+#footer-nav a:hover{
+    cursor: pointer;
+    color: #a08b8b;
+}
+
+/*social media icons */
+
+#social-media{
+    padding: 15px 0px 15px;
 }
 
 #social-icons{
@@ -39,19 +52,7 @@ footer{
     color: rgb(255, 255, 255);
 }
 
-.icon{
-    width: 20px;
-    height: 20px;
-}
-
-#social-media{
-    padding: 10px 0px 15px;
-}
-
-.footer-div{
-    text-align: center;
-}
-
+/* copyright text */
 #copyright{
     margin-bottom: -20px;
     text-align: center;
