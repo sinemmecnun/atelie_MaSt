@@ -52,15 +52,45 @@
 }
 
 #item-details{
-    position: absolute;
-    width: 60%;
-    height: 600px;
-    left: 400px;
-    top: 200px;
+    z-index: 100;
+    width: 50%;
     background-color: #4b4343;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: table-cell;
     display: none;
 }
 .expand-button:hover{
     color: rgb(141, 122, 122);
 }
 
+.stop-scrolling{
+    height: 100%;
+    overflow: hidden;
+}
+
+#details-container{
+    display: flex;
+}
+
+#details-pic{
+    width: 300px;
+    height: 350px;
+}
+
+#close-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#close-button:hover{
+    cursor: pointer;
+}
+
+#details-text{
+    width: fit-content;
+}

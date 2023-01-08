@@ -1,4 +1,4 @@
-import { renderCatalogueItems } from "./catalogueItems.js";
+import { populateDetails, renderCatalogueItems } from "./catalogueItems.js";
 
 window.onload = renderCatalogueItems();
 
@@ -26,12 +26,22 @@ const detailsButtons = document.querySelectorAll('.details-button');
 detailsButtons.forEach((button) => {
     const detailsDiv = document.getElementById('item-details');
     button.addEventListener('click', () => {
-        detailsDiv.style.display = 'block';})
+        detailsDiv.style.display = 'block';
+        const body = document.querySelector('body');
+        body.classList.add('stop-scrolling');
+        const buttonData = button.id.split(" ");
+        const id = buttonData[1];
+        const type = buttonData[0];
+        populateDetails(id, type, detailsDiv);
+    })
 })
 
 document.getElementById('close-button').addEventListener('click', () => {
     const detailsDiv = document.getElementById('item-details');
     detailsDiv.style.display = 'none';
+    const body = document.querySelector('body');
+    body.classList.remove('stop-scrolling');
+
 })
 
 function expandCatalogue(div){
