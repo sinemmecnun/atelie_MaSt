@@ -31,8 +31,14 @@ header {
 
 @media screen and (max-width: 900px) 
 {
-    #firm-name{
-        font-size: 30px;
+    nav li{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav li{
+        font-size: 13px;
     }
 }
 
