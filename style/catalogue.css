@@ -7,6 +7,13 @@
     margin-right: 60px;
 }
 
+@media screen and (max-width: 950px){
+    .catalogue-div{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
+}
+
 /* individual containers */
 .catalogue-item{
     display: block;
