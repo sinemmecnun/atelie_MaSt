@@ -13,17 +13,22 @@ td{
 }
 
 .service-div{
-    height: 600px;
+    height: fit-content;
     width: 100%;
-    display: flexbox;
-    vertical-align: bottom;
+    padding-top: 250px;
+    padding-left: 40px;
 }
+
+.service-div h2, h4{
+    margin-bottom: 20px;
+}
+
 
 /* general buttons style */
 .service-btn{
     padding: 20px;
     width: 350px;
-    font-size: 23px;
+    font-size: 18px;
     border-radius: 20px;
     border: none;
     margin: 12px;
@@ -31,6 +36,7 @@ td{
 
 .service-btn:hover{
     cursor: pointer;
+    border: 1px solid black
 }
 
 .ask-div{
@@ -49,4 +55,5 @@ td{
 #womens-sizes-div{
     padding: 40px 50px;
     background-color: azure;
+    margin-left: -40px;
 }

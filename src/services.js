@@ -1,21 +1,35 @@
+import { expand } from "./catalogueItems.js";
+
 const sizeButton = document.getElementById('size-button');
+const priceBtn = document.getElementById('price-button');
+const orderButton = document.getElementById('show-order');
+const rentButton = document.getElementById('show-rent');
+const questionButtons = document.querySelectorAll('.send-question');
+
+const sizeDiv = document.getElementById('womens-sizes-div');
+const priceDiv = document.getElementById('price-list');
+const orderDiv = document.getElementById('order-ask');
+const rentDiv = document.getElementById('rent-ask');
+
 sizeButton.addEventListener('click', () => {
-    const div = document.getElementById('womens-sizes-div');
-    if(div.style.display == 'none'){
-        div.style.display = 'block';
-    }
-    else{
-        div.style.display = 'none';
-    }
+    expand(sizeDiv);
 });
 
-const priceBtn = document.getElementById('price-button');
 priceBtn.addEventListener('click', () => {
-    const div = document.getElementById('price-list');
-    if(div.style.display == 'none'){
-        div.style.display = 'block';
-    }
-    else{
-        div.style.display = 'none';
-    }
+    expand(priceDiv);
+});
+
+orderButton.addEventListener('click', () =>{
+    expand(orderDiv);
+});
+
+rentButton.addEventListener('click', () =>{
+    expand(rentDiv);
+});
+
+questionButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        const parentDiv = button.parentElement.parentElement;
+        parentDiv.innerHTML = 'uspeshno';
+    })
 })

@@ -1,54 +1,45 @@
-import { populateDetails, renderCatalogueItems } from "./catalogueItems.js";
+import { expand, populateDetails, renderCatalogueItems } from "./catalogueItems.js";
 
 window.onload = renderCatalogueItems();
 
+const body = document.querySelector('body');
+const detailsDiv = document.getElementById('item-details');
+const detailsButtons = document.querySelectorAll('.details-button');
+
 document.getElementById('ex-pjs').addEventListener('click', () => {
     const div = document.getElementById('pajamas-div');
-    expandCatalogue(div);
+    expand(div);
 });
 
 document.getElementById('ex-undwear').addEventListener('click', () => {
     const div = document.getElementById('underwear-div');
-    expandCatalogue(div);
+    expand(div);
 })
 
 document.getElementById('ex-dress').addEventListener('click', () => {
     const div = document.getElementById('dress-div');
-    expandCatalogue(div);
+    expand(div);
 })
 
 document.getElementById('ex-costume').addEventListener('click', () => {
     const div = document.getElementById('costumes-div');
-    expandCatalogue(div);
+    expand(div);
 })
 
-const detailsButtons = document.querySelectorAll('.details-button');
 detailsButtons.forEach((button) => {
-    const detailsDiv = document.getElementById('item-details');
     button.addEventListener('click', () => {
         detailsDiv.style.display = 'block';
-        const body = document.querySelector('body');
         body.classList.add('stop-scrolling');
+
         const buttonData = button.id.split(" ");
         const id = buttonData[1];
         const type = buttonData[0];
-        populateDetails(id, type, detailsDiv);
+
+        populateDetails(id, type);
     })
 })
 
 document.getElementById('close-button').addEventListener('click', () => {
-    const detailsDiv = document.getElementById('item-details');
     detailsDiv.style.display = 'none';
-    const body = document.querySelector('body');
     body.classList.remove('stop-scrolling');
-
-})
-
-function expandCatalogue(div){
-    if(div.style.display === 'none'){
-        div.style.display = 'grid';
-    }
-    else{
-        div.style.display = 'none';
-    }
-}
+});
