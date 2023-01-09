@@ -22,7 +22,7 @@ body{
 
 main{
     display: block;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 ul{
@@ -42,7 +42,12 @@ a{
     color: white;
     text-decoration: none;
 }
-
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 a:hover{
     color: #a08b8b;
     opacity: 1.5;

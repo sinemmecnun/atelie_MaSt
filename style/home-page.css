@@ -4,7 +4,7 @@
     z-index: 1;
     background-repeat: no-repeat;
     -webkit-background-size: 100%;
-    height: 750px;
+    height: 700px;
     background-attachment:fixed;
     margin-top: -80px ;
     display: grid;
@@ -18,7 +18,7 @@
     text-align: center;
     font-size: 30px;
     position: absolute;
-    bottom: 65px;
+    bottom: 50px;
     right: 0;
     left: 0;
 }
@@ -38,8 +38,8 @@
     font-size: 20px;
 }
 .logo{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin: 0;
     opacity: 0.75;
 }
@@ -70,7 +70,7 @@
     height: 600px;
     align-items: center;
 }
-.catalog-items{
+.catalogue-items{
     width: 1000px;
 }
 /* .pics{
