@@ -13,6 +13,7 @@ header {
     filter: blur(20px);
     filter: url(blur.svg#blur);
     z-index: 100;
+    top: 0;
 }
 
 /* firm name styling */

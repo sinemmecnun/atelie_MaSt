@@ -1,12 +1,12 @@
-import { dbData } from "./data.js";
+import { dbData } from "./productData.js";
 
-const belyo = Object.keys(dbData.belyo);
-const pijami = Object.keys(dbData.pijami);
-const rokli = Object.keys(dbData.rokli);
-const kostyumi = Object.keys(dbData.kostyumi);
 
 export function renderCatalogueItems(){
-
+    const belyo = Object.keys(dbData.belyo);
+    const pijami = Object.keys(dbData.pijami);
+    const rokli = Object.keys(dbData.rokli);
+    const kostyumi = Object.keys(dbData.kostyumi);
+    
     const underwearDiv = document.getElementById('underwear-div');
     const dressDiv = document.getElementById('dress-div');
     const pijamiDiv = document.getElementById('pajamas-div');
@@ -46,33 +46,42 @@ export function renderCatalogueItems(){
 
 }
 
-export function populateDetails(id, type, div){
+export function populateDetails(id, type){
     const data = dbData[type];
     const itemDetails = data[id];
     const itemDetailsDiv = document.getElementById('details-container');
     const detailText = {
         "belyo": `
-            <p>Име: ${itemDetails.name}</p>
-            <p>Цвят: ${itemDetails.color}</p>
-            <p>Цена: ${itemDetails.price}</p>`,
+            <p><b>Име:</b> ${itemDetails.name}</p>
+            <p><b>Цвят:</b> ${itemDetails.color}</p>
+            <p><b>Цена:</b> ${itemDetails.price} лв.</p>`,
         "pijami": `
-            <p>Име: ${itemDetails.name}</p>
-            <p>Материал: ${itemDetails.material}</p>
-            <p>Цвят: ${itemDetails.color}</p>
-            <p>Цена: ${itemDetails.price}</p>`,
+            <p><b>Име:</b> ${itemDetails.name}</p>
+            <p><b>Материал:</b> ${itemDetails.material}</p>
+            <p><b>Цвят:</b> ${itemDetails.color}</p>
+            <p><b>Цена:</b> ${itemDetails.price} лв.</p>`,
         "rokli": `
-            <p>Име: ${itemDetails.name}</p>
-            <p>Цена: ${itemDetails.price}</p>`, 
+            <p><b>Име:</b> ${itemDetails.name}</p>
+            <p><b>Цена:</b> ${itemDetails.price} лв.</p>`, 
         "kostyumi": `
-            <p>Име: ${itemDetails.name}</p>
-            <p>Подходящо за ${itemDetails.years} години</p>`
+            <p><b>Име:</b> ${itemDetails.name}</p>
+            <p>Подходящо за <b>${itemDetails.years}</b> годишни</p>`
     }
 
     itemDetailsDiv.innerHTML = `
-        <div>
+        <div id="detail-pic-div">
             <img id="details-pic" src=${itemDetails.imageUrl} alt="">
         </div>
         <div id="details-text">
             ${detailText[type]}
         </div>`
+}
+
+export function expand(div){
+    if(div.style.display == 'none'){
+        div.style.display = 'block';
+    }
+    else{
+        div.style.display = 'none';
+    }
 }
