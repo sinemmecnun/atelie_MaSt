@@ -65,41 +65,66 @@
 }
 
 .catalog{
-    display: flex;
-    flex-direction: row;
     height: 600px;
-    align-items: center;
-}
-.catalogue-items{
-    width: 1000px;
-}
-/* .pics{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    position: relative;
     align-items: center;
+}
+.catalog-items{
+    object-fit: cover;
+    width: fit-content;
+    position:relative;
+    display: flex;
+    right: 100px;
+    width: 1100px;
+}
+.item{
+    border-radius: 30px;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-2{
+    background-image: url(../images/gallery/бельо/7.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 500px;
+    width: 350px;
+    margin: 0px 5px 20px;
+}
+.pic-1{
+    background-image: url(../images/gallery/бельо/5.jpg);
+    height: 100vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 450px;
+    width: 250px;
+    margin: 0px 10px 20px;
+}
+.pic-3{
+    background-image: url(../images/gallery/бельо/11.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: 400px;
+    height: 450px;
+    width: 350px;
+    margin: 0px 10px 20px;
 }
 .catalog-info{
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
 }
-#pics-1{
-    background-image: url(../images/gallery/бельо/5.jpg);
-}
-#pics-2{
-    background-image: url(../images/gallery/бельо/1.jpg);
-}
-#pics-3{
-    background-image: url(../images/gallery/бельо/10.jpg);
-}
-#pics-1,#pics-2,#pics-3{
-    height: 100vh;
-    z-index: 1;
-    height: 400px;
-    background-repeat: no-repeat;
-    -webkit-background-size: 100%;
-} */
+
+
+
 
 
 
