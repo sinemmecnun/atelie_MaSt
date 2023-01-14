@@ -1,0 +1,71 @@
+.news-main_face{
+    background-image: url(../images/1.jpg);
+    height: 100vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    height: 350px;
+    background-attachment:fixed;
+    margin-top: 9px ;
+    display: grid;
+    -webkit-box-shadow: 0px 5px 25px 15px rgba(171, 154, 154, 0.619);
+    -moz-box-shadow: 0px 5px 25px 15px rgb(202, 180, 180);
+    box-shadow: 0px 5px 25px 15px rgba(169, 150, 150, 0.592);
+}
+.new-collection{ 
+    color: rgba(231, 222, 222, 0.716);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+}
+#new-event,#old-event {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 25px 15px rgba(169, 150, 150, 0.592);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.events{
+    margin: 40px 30px;
+}
+.event-info{
+    background-color: rgba(217, 204, 204, 0.463);
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+.first-imeg{
+    background-image: url(../images/gallery/бельо/5.jpg);
+}
+.second-imeg{
+    background-image: url(../images/gallery/пижами/4.jpg);
+}
+.first-imeg,.second-imeg{
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.line{
+    width: 300px;
+    margin: 10px 20px 0px;
+    text-align: center;
+    height: 1.5px;
+    background-color: #352626;
+    border: 0;
+}

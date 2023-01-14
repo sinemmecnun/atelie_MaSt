@@ -81,7 +81,7 @@
 .item{
     border-radius: 30px;
 }
-.pics{
+.home-pics{
     display: flex;
     flex-direction: row;
     align-items: center;
