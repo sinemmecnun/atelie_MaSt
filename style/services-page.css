@@ -1,15 +1,6 @@
-/* table styling */
-table, tr, td{
-    border: 1px solid;
-    border-collapse: collapse;
-}
-
 table{
     width: 70%;
-}
-
-td{
-    padding: 10px;
+    min-width: 900px;
 }
 
 .service-div{
@@ -22,7 +13,6 @@ td{
 .service-div h2, h4{
     margin-bottom: 20px;
 }
-
 
 /* general buttons style */
 .service-btn{
@@ -41,6 +31,7 @@ td{
 
 .ask-div{
     background-color: aliceblue;
+    padding: 30px 60px;
 }
 
 #order-div{
@@ -56,4 +47,113 @@ td{
     padding: 40px 50px;
     background-color: azure;
     margin-left: -40px;
+}
+
+#womens-sizes{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#womens-sizes thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+#womens-sizes th, td{
+    padding: 12px 15px;
+}
+
+#womens-sizes tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+#womens-sizes tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#womens-sizes tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.qstn-first-line input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.qstn-first-line input:focus{
+    outline: none;
+}
+
+.qstn-first-line{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.service-input-fields{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    padding-top: 6px;
+    background-color: white;
+}
+
+.qstn-textarea textarea{
+    width: 97%;
+    resize: none;
+    height: 130px;
+    background-color: transparent;
+    padding: 12px;
+    border: none;
+}
+
+.qstn-textarea textarea:focus{
+    outline: none;
+}
+
+
+.qstn-textarea{
+    text-align: left;
+    width: 80%;
+}
+
+.send-question{
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid  black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.send-question:hover{
+    opacity: 80%;
+}
+
+#inner-qstn-wrapper{
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+@media screen and (max-width: 1100px) {
+    .qstn-first-line{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .qstn-first-line{
+    grid-template-columns: 1fr;
+    }
 }

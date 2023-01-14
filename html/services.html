@@ -103,17 +103,26 @@
 
             <div class="ask-div" id="order-ask" style="display: none;">
                 <form>
-                    <label for="order-name">Име</label>
-                    <input type="text" id="order-name">
+                    <div class="qstn-first-line">
+                        <div class="service-input-fields">
+                            <input type="text" id="order-name" placeholder="Вашето име">
+                        </div>
+    
+                        <div class="service-input-fields">
+                            <input type="text" id="order-phone" placeholder="Вашият телефон">
+                        </div>
+    
+                        <div class="service-input-fields">
+                            <input type="email" id="order-email" placeholder="Вашият имейл">
+                        </div>
+                    </div>
 
-                    <label for="order-phone">Телефон</label>
-                    <input type="text" id="order-phone">
-
-                    <label for="order-email">Имейл</label>
-                    <input type="email" id="order-email">
-
-                    <label for="order-message">Съобщение</label>
-                    <textarea id="order-message"></textarea>
+                    <div class="qstn-textarea">
+                        <label for="order-message">Съобщение</label>
+                        <div id="inner-qstn-wrapper">
+                            <textarea id="order-message" placeholder="Вашето съобщение"></textarea>
+                        </div>
+                    </div>
 
                     <button class="send-question">Изпрати</button>
                 </form>
@@ -124,25 +133,34 @@
                 <button id="price-button" class="service-btn">Вижте цени</button>
                 <button class="service-btn" id="show-rent">Направи запитване</button>
                 <div id="price-list" style="display: none;">
-                    <p>1 ден - 10 лв.</p>
-                    <p>3 дена - 25 лв.</p>
-                    <p>5 дена - 40 лв.</p>
+                    <p>&#10084; 1 ден - 10 лв.</p>
+                    <p>&#10084; 3 дена - 25 лв.</p>
+                    <p>&#10084; 5 дена - 40 лв.</p>
                 </div>
             </div>
 
             <div class="ask-div" id="rent-ask" style="display: none;">
-                <form class="message-div">
-                    <label for="">Име</label>
-                    <input type="text">
+                <form>
+                    <div class="qstn-first-line">
+                        <div class="service-input-fields">
+                            <input type="text" id="order-name" placeholder="Вашето име">
+                        </div>
+    
+                        <div class="service-input-fields">
+                            <input type="text" id="order-phone" placeholder="Вашият телефон">
+                        </div>
+    
+                        <div class="service-input-fields">
+                            <input type="email" id="order-email" placeholder="Вашият имейл">
+                        </div>
+                    </div>
 
-                    <label for="">Телефон</label>
-                    <input type="text">
-
-                    <label for="">Имейл</label>
-                    <input type="email">
-
-                    <label for="">Съобщение</label>
-                    <textarea name="" id=""></textarea>
+                    <div class="qstn-textarea">
+                        <label for="order-message">Съобщение</label>
+                        <div id="inner-qstn-wrapper">
+                            <textarea id="order-message" placeholder="Вашето съобщение"></textarea>
+                        </div>
+                    </div>
 
                     <button class="send-question">Изпрати</button>
                 </form>
