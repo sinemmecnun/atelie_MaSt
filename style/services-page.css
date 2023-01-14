@@ -4,14 +4,18 @@ table{
 }
 
 .service-div{
-    height: fit-content;
+    height: 300px;
     width: 100%;
-    padding-top: 250px;
-    padding-left: 40px;
+    padding: 65px 0px;
 }
-
+.main-service{
+    background-image: url(../images/99.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
 .service-div h2, h4{
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 /* general buttons style */
@@ -21,33 +25,37 @@ table{
     font-size: 18px;
     border-radius: 20px;
     border: none;
+    color: rgb(249, 249, 241);
+    background-color: rgba(206, 192, 192, 0.371);
     margin: 12px;
 }
 
 .service-btn:hover{
     cursor: pointer;
-    border: 1px solid black
+    box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    -webkit-box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    -moz-box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    transition: 1s;
 }
 
 .ask-div{
-    background-color: aliceblue;
+    background-color: rgba(134, 99, 99, 0.533);
     padding: 30px 60px;
 }
 
-#order-div{
-    background-color: #faf0e6;
-    border-bottom: 1pt solid black;
+#order-div , #rent-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.order-but,.service-but{
+    justify-content: space-between;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
 }
 
-#rent-div{
-    background-color: rgb(253, 236, 236);
-}
-
-#womens-sizes-div{
-    padding: 40px 50px;
-    background-color: azure;
-    margin-left: -40px;
-}
 
 #womens-sizes{
     border-collapse: collapse;
@@ -59,7 +67,7 @@ table{
 }
 
 #womens-sizes thead tr{
-    background-color: #009879;
+    background-color: #3f121584;
     color: #ffffff;
     text-align: left;
 }
@@ -77,7 +85,7 @@ table{
 }
 
 #womens-sizes tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #581217a6;
 }
 
 

@@ -47,6 +47,7 @@
     cursor: pointer;
     color: beige;
     opacity: 1;
+    transition: 1s;
 }
 
 /* category headings */

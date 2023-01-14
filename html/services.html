@@ -42,12 +42,14 @@
             </nav>
         </header>
 
-        <main>
+        <main class="main-service">
             <div class="service-div" id="order-div">
                 <h2>Направи поръчка</h2>
                 <h4>Продуктите от категории бельо, пижами и рокли се изработват по предварителна поръчка.</h4>
-                <button id="size-button" class="service-btn">Виж таблица с размери</button>
-                <button class="service-btn" id="show-order">Направи запитване</button>
+                <div class="order-but">
+                    <button id="size-button" class="service-btn">Виж таблица с размери</button>
+                    <button class="service-btn" id="show-order">Направи запитване</button>
+                </div>
                 <div id="womens-sizes-div" style="display: none;">
                     <table id="womens-sizes">
                         <thead>
@@ -126,12 +128,13 @@
 
                     <button class="send-question">Изпрати</button>
                 </form>
-            </div>
-                        
+            </div>      
             <div class="service-div" id="rent-div">
                 <h2>Наеми костюм</h2>
-                <button id="price-button" class="service-btn">Вижте цени</button>
-                <button class="service-btn" id="show-rent">Направи запитване</button>
+                <div class="service-but">
+                    <button id="price-button" class="service-btn">Вижте цени</button>
+                    <button class="service-btn" id="show-rent">Направи запитване</button>
+                </div>
                 <div id="price-list" style="display: none;">
                     <p>&#10084; 1 ден - 10 лв.</p>
                     <p>&#10084; 3 дена - 25 лв.</p>

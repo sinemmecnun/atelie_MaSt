@@ -10,7 +10,7 @@
     display: grid;
     -webkit-box-shadow: 0px 5px 25px 15px rgba(171, 154, 154, 0.619);
     -moz-box-shadow: 0px 5px 25px 15px rgb(202, 180, 180);
-    box-shadow: 0px 5px 25px 15px rgba(169, 150, 150, 0.592);
+    box-shadow: 0px 25px 25px -15px rgba(169, 150, 150, 0.592);
 }
 .new-collection{ 
     color: rgba(231, 222, 222, 0.716);
@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: space-around;
     box-shadow: 0px 5px 25px 15px rgba(169, 150, 150, 0.592);
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
     border-radius: 20px;
 }
