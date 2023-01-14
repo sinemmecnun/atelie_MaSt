@@ -20,12 +20,19 @@
 }
 
 .input-field{
-    margin-left: 10px;
-    padding: 10px;
-    padding-right: 180px;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+    border: none;
+    width: 100%;
+}
+
+.input-field:focus{
+    outline: none;
 }
 
 #location{
+    top: 88px;
     position: relative;
 }
 
@@ -56,7 +63,7 @@
 }
 
 /* Намерете ни на картата */
-#contact-button{
+.contact-button{
     padding: 17px 30px;
     border-radius: 25px;
     border-color: transparent;
@@ -65,11 +72,11 @@
     background-color: #7b7879;
 }
 
-#contact-button-div a{
+.contact-button-div a{
     text-decoration: none;
 }
 
-#contact-button:hover{
+.contact-button:hover{
     opacity: 80%;
 }
 
@@ -105,14 +112,20 @@
 }
 
 #contact-form-first-line{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    /* text-align: center;
+    justify-content: space-between; */
 }
 
-#form-contact-field{
+.form-contact-field{
     margin-bottom: 20px;
-    width: fit-content;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    padding-top: 5px;
+    text-align: left;
 }
 
 #form-content-field{
@@ -126,4 +139,41 @@
     padding-top: 5px;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+#send-button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 15px;
+    border-color: transparent;
+    cursor: pointer;
+    box-shadow: 1px 1px 0px gray;
+    background-color: #7b7879;
+    font-size: 15px;
+    color: white;
+}
+
+#send-button:hover{
+    opacity: 80%;
+}
+
+@media screen and (max-width: 1030px){
+    #location{
+        position: unset;
+        display: block;
+    }
+
+    #address{
+        position: inherit;
+        width: 100%;
+        border-radius: 0px;
+        padding: 15px 20px;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    #contact{
+        margin-top: 20px;
+    }
 }
