@@ -28,4 +28,3 @@ rentButton.addEventListener('click', () =>{
 });
 
 
-questionButtons.forEach
