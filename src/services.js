@@ -1,4 +1,4 @@
-import { expand } from "./catalogueItems.js";
+import { expand, expandNew } from "./catalogueItems.js";
 
 const sizeButton = document.getElementById('size-button');
 const priceBtn = document.getElementById('price-button');
@@ -20,11 +20,11 @@ priceBtn.addEventListener('click', () => {
 });
 
 orderButton.addEventListener('click', () =>{
-    expand(orderDiv);
+    expandNew(orderDiv);
 });
 
 rentButton.addEventListener('click', () =>{
-    expand(rentDiv);
+    expandNew(rentDiv);
 });
 
 

@@ -13,16 +13,6 @@
     box-shadow: 0px 5px 25px 15px rgba(191,166,166,1);
 }
 
-.down-arrow{
-    color: rgba(255, 255, 255, 0.545);
-    text-align: center;
-    font-size: 30px;
-    position: absolute;
-    bottom: 50px;
-    right: 0;
-    left: 0;
-}
-
 .abs{
     opacity: 0.55px;
     align-items: center;
@@ -45,7 +35,8 @@
 }
 
 .services{
-    height: 400px;
+    height: fit-content;
+    margin: 30px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -121,6 +112,12 @@
     display: flex;
     flex-direction: column;
     align-items:flex-start;
+}
+@media screen and (max-width: 900px) 
+{
+    .services{
+        flex-direction: column;
+    }
 }
 
 

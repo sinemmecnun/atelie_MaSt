@@ -85,3 +85,12 @@ export function expand(div){
         div.style.display = 'none';
     }
 }
+
+export function expandNew(div){
+    if(div.style.display == 'none'){
+        div.style.display = 'flex';
+    }
+    else{
+        div.style.display = 'none';
+    }
+}
