@@ -145,15 +145,24 @@ table{
     padding: 10px 40px;
     font-size: 15px;
     border-radius: 10px;
-    border: 1px solid  black;
+    border: 0px;
     margin-top: 20px;
     cursor: pointer;
+    background-color: #d4bfbf77;
+    color: #ffffff;
+    opacity: 0.85;
 }
-
+#price-list{
+    justify-content: center;
+    margin-top: 40px;
+}
 .send-question:hover{
-    opacity: 80%;
+    opacity: 1;
+    box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    -webkit-box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    -moz-box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    transition: 1s;
 }
-
 #inner-qstn-wrapper{
     border-radius: 7px;
     border: 1px solid black;

@@ -79,7 +79,7 @@ export function populateDetails(id, type){
 
 export function expand(div){
     if(div.style.display == 'none'){
-        div.style.display = 'block';
+        div.style.display = 'grid';
     }
     else{
         div.style.display = 'none';
