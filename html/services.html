@@ -107,26 +107,26 @@
                 <form>
                     <div class="qstn-first-line">
                         <div class="service-input-fields">
-                            <input type="text" id="order-name" placeholder="Вашето име">
+                            <input type="text" id="order-name" name="name" placeholder="Вашето име">
                         </div>
     
                         <div class="service-input-fields">
-                            <input type="text" id="order-phone" placeholder="Вашият телефон">
+                            <input type="text" id="order-phone" name="phone" placeholder="Вашият телефон">
                         </div>
     
                         <div class="service-input-fields">
-                            <input type="email" id="order-email" placeholder="Вашият имейл">
+                            <input type="email" id="order-email" name="email" placeholder="Вашият имейл">
                         </div>
                     </div>
 
                     <div class="qstn-textarea">
                         <label for="order-message">Съобщение</label>
                         <div id="inner-qstn-wrapper">
-                            <textarea id="order-message" placeholder="Вашето съобщение"></textarea>
+                            <textarea id="order-message" name="message" placeholder="Вашето съобщение"></textarea>
                         </div>
                     </div>
 
-                    <button class="send-question">Изпрати</button>
+                    <button class="send-question" type="submit">Изпрати</button>
                 </form>
             </div>      
             <div class="service-div" id="rent-div">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
 
-                    <button class="send-question">Изпрати</button>
+                    <button class="send-question" type="submit">Изпрати</button>
                 </form>
             </div>
         </main>

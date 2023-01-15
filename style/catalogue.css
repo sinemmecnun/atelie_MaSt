@@ -34,9 +34,8 @@
 /* details buttons */
 .details-button{
     padding: 10px;
-    color: rgb(208, 208, 208);
+    color: white;
     background-color: #6c6464c0;
-    opacity: 0.90;
     margin: 10px;
     width: 150px;
     border-radius: 10px;
@@ -46,8 +45,10 @@
 .details-button:hover{
     cursor: pointer;
     color: beige;
-    opacity: 1;
     transition: 1s;
+    box-shadow: 1px 0px 10px 2px rgba(88, 49, 49, 0.545);
+    /* -webkit-box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545);
+    -moz-box-shadow: 1px -2px 39px 2px rgba(88, 49, 49, 0.545); */
 }
 
 /* category headings */

@@ -27,9 +27,5 @@ rentButton.addEventListener('click', () =>{
     expand(rentDiv);
 });
 
-questionButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-        const parentDiv = button.parentElement.parentElement;
-        parentDiv.innerHTML = 'uspeshno';
-    })
-})
+
+questionButtons.forEach
