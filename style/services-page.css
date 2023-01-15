@@ -4,11 +4,23 @@ table{
 }
 
 .service-div{
-    min-height: 300px;
+    min-height: 210px;
     height: fit-content;
     width: 100%;
     padding: 65px 0px;
 }
+
+.message-sent{
+    color: white;
+    text-align: center;
+    min-height: 200px;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    background-color: rgba(134, 99, 99, 0.533);
+}
+
 .main-service{
     background-image: url(../images/99.jpg);
     background-repeat: no-repeat;
@@ -155,6 +167,7 @@ table{
 #price-list{
     justify-content: center;
     margin-top: 40px;
+    color: white;
 }
 .send-question:hover{
     opacity: 1;

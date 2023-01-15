@@ -126,9 +126,15 @@
                         </div>
                     </div>
 
-                    <button class="send-question" type="submit">Изпрати</button>
+                    <button class="send-question" id="send-order" type="reset">Изпрати</button>
                 </form>
-            </div>      
+            </div> 
+            
+            <div class="message-sent" id="order-message-sent" style="display: none;">
+                <h3>Съобщението Ви е изпратено! 
+                    Наш служител ще се свърже с вас!</h3>
+            </div>
+
             <div class="service-div" id="rent-div">
                 <h2>Наеми костюм</h2>
                 <div class="service-but">
@@ -146,27 +152,32 @@
                 <form>
                     <div class="qstn-first-line">
                         <div class="service-input-fields">
-                            <input type="text" id="order-name" placeholder="Вашето име">
+                            <input type="text" id="rent-name" placeholder="Вашето име">
                         </div>
     
                         <div class="service-input-fields">
-                            <input type="text" id="order-phone" placeholder="Вашият телефон">
+                            <input type="text" id="rent-phone" placeholder="Вашият телефон">
                         </div>
     
                         <div class="service-input-fields">
-                            <input type="email" id="order-email" placeholder="Вашият имейл">
+                            <input type="email" id="rent-email" placeholder="Вашият имейл">
                         </div>
                     </div>
 
                     <div class="qstn-textarea">
                         <label for="order-message">Съобщение</label>
                         <div id="inner-qstn-wrapper">
-                            <textarea id="order-message" placeholder="Вашето съобщение"></textarea>
+                            <textarea id="rent-message" placeholder="Вашето съобщение"></textarea>
                         </div>
                     </div>
 
-                    <button class="send-question" type="submit">Изпрати</button>
+                    <button class="send-question" id="send-rent" type="reset">Изпрати</button>
                 </form>
+            </div>
+
+            <div class="message-sent" id="rent-message-sent" style="display: none;">
+                <h3>Съобщението Ви е изпратено! 
+                    Наш служител ще се свърже с вас!</h3>
             </div>
         </main>
         <footer>
