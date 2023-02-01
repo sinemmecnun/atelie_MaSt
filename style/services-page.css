@@ -23,6 +23,8 @@ table{
 
 .main-service{
     background-image: url(../images/99.jpg);
+    -webkit-background-size: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-attachment:fixed;
     display: flex;
